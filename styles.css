@@ -13,13 +13,16 @@ img {
 
 body {
     background-color: steelblue;
-    /* background-image: url(images/background.jpg); */
     font-family: 'Open Sans', sans-serif;
     color: ghostwhite;
   }
   
+  .footer {
+    background-color: steelblue;
+    font-family: 'Open Sans', sans-serif;
+  }
 
-  #wrapper {
+  #wrapperIndex {
       display: grid;
       gap: 10px;
       background-color: steelblue;
@@ -27,26 +30,70 @@ body {
       padding: 0;
       color: ghostwhite;
       font-family: 'Open Sans', sans-serif; 
-      grid-template-columns: 400px 400px 400px;
+      grid-template-columns: 300px 250px 250px;
+      grid-template-rows: auto auto auto;
   }
 
   .header {
     margin: auto;
     padding: 0;
-    grid-area: 1 / 1 / span 1 / span 1;
+    grid-area: 1 / 3 / span 1 / span 1;
   }
 
 .about {
     margin: auto;
     padding: 0;
-    grid-area: 1 / 1.5 / span 1 / span 1;
+    grid-area: 2 / 1 / span 1 / span 2;
 }
 
+
+.learned {
+    padding: 0;
+    grid-area: 2 / 5 / span 1 / span 2;
+    margin: auto;
+    
+}
+
+.video {
+    margin: auto;
+    padding: 0;
+    grid-area: 2 / 3 / span 1 / span 2;
+}
 
 .refs {
     text-align: center;
     padding: 0;
     height: 50px;
     width: 50px;
+    grid-area: 2 / 1 / span 1 / span 2;
+}
+#wrapperProjects {
+    display: grid;
+    gap: 10px;
+    background-color: steelblue;
+    margin: auto;
+    padding: 0;
+    color: ghostwhite;
+    font-family: 'Open Sans', sans-serif; 
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: auto auto auto;
 }
 
+
+#eyes {
+    margin: auto;
+    padding: 0;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+#pacmen {
+    margin: auto;
+    padding: 0;
+    grid-area: 1 / 2 / span 1 / span 2;
+}
+
+#mapexercise {
+    margin: auto;
+    padding: 0;
+    grid-area: 1 / 3 / span 1 / span 2;
+}
