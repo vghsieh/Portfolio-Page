@@ -1,0 +1,52 @@
+p, li {
+    color: ghostwhite
+}
+
+img {
+    border-radius: 50%;
+    border: 2px;
+    border-style: solid;
+    border-color:  ghostwhite;
+    width: 300x;
+    height: 300px;
+}
+
+body {
+    background-color: steelblue;
+    /* background-image: url(images/background.jpg); */
+    font-family: 'Open Sans', sans-serif;
+    color: ghostwhite;
+  }
+  
+
+  #wrapper {
+      display: grid;
+      gap: 10px;
+      background-color: steelblue;
+      margin: auto;
+      padding: 0;
+      color: ghostwhite;
+      font-family: 'Open Sans', sans-serif; 
+      grid-template-columns: 400px 400px 400px;
+  }
+
+  .header {
+    margin: auto;
+    padding: 0;
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+
+.about {
+    margin: auto;
+    padding: 0;
+    grid-area: 1 / 1.5 / span 1 / span 1;
+}
+
+
+.refs {
+    text-align: center;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+}
+
