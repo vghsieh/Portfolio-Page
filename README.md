@@ -4,7 +4,7 @@
 This is my portfolio page, showcasing the exercises for the Eye Movement, PacMen Factory, and Real Time Bus Tracker. There is also a section about me, and a video introduction.
 
 ## Utilization
-The page is hosted on GitHub pages [here](https://vghsieh.github.io/). The Navbar at the top links between the projects and the homepage.
+The page is hosted on GitHub pages [here](https://vghsieh.github.io/Portfolio-Page/). The Navbar at the top links between the projects and the homepage.
 
 
 ## Roadmap
